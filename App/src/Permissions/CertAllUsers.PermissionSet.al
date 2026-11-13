@@ -6,6 +6,7 @@ using MBS.CertificationSessionManagement.PostedSession;
 using MBS.CertificationSessionManagement.Posting;
 using MBS.CertificationSessionManagement.Session;
 using MBS.CertificationSessionManagement.Setup;
+using Microsoft.Foundation.AuditCodes;
 
 permissionset 50000 "MBS Cert. All Users"
 {
