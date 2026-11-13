@@ -11,5 +11,6 @@
   "bcptTestFolders": [
     "App.PerformanceTest"
   ],
-  "artifact": "////latest"
+  "artifact": "////latest",
+  "doNotRunBcptTests": true
 }
