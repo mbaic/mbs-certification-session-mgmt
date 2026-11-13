@@ -1,10 +1,10 @@
 {
-  "id": "f03d7846-7577-4872-b7a3-e3baaf566bee",
-  "name": "App",
+  "id": "946550e7-0855-4cc2-b37c-338b98ef4fb7",
+  "name": "MBS Certification Session Management",
   "publisher": "MBS",
-  "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
+  "version": "28.0.0.0",
+  "brief": "Certification Session Management for Business Central",
+  "description": "Certification Session Management solution for Business Central demo purposes.",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
@@ -12,20 +12,43 @@
   "logo": "",
   "dependencies": [],
   "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "platform": "28.0.0.0",
+  "application": "28.0.0.0",
+  "runtime": "17.0",
+  "target": "Cloud",
   "idRanges": [
     {
       "from": 50000,
       "to": 50099
     }
   ],
+  "suppressWarnings": [
+    "AL0749"
+  ],
   "features": [
-    "NoImplicitWith"
+    "NoImplicitWith",
+    "NoPromotedActionProperties"
   ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
-  }
+  },
+  "internalsVisibleTo": [
+    {
+      "id": "a7fcb1a1-de74-401b-a7f3-523289711fd8",
+      "name": "MBS Certification Session Management Test",
+      "publisher": "MBS"
+    },
+    {
+      "id": "1c72006e-9e74-4a3c-ab54-e02d2387a824",
+      "name": "MBS Certification Session Management Performance Test",
+      "publisher": "MBS"
+    },
+    {
+      "id": "3abc474c-9a84-46f2-9494-359e42eb1290",
+      "name": "MBS Certification Session Management Dataset",
+      "publisher": "MBS"
+    }
+  ]
 }
