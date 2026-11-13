@@ -10,6 +10,9 @@
       "path": "App.Dataset"
     },
     {
+      "path": "App.PerformanceTest"
+    },
+    {
       "path": ".AL-Go"
     }
   ],
