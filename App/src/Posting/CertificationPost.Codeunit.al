@@ -105,6 +105,7 @@ codeunit 50000 "MBS Certification-Post"
         PostedHeader.TransferFields(SessionHeader);
         PostedHeader."No." := SessionHeader."Posting No.";
         PostedHeader."No. Series" := SessionHeader."Posting No. Series";
+        PostedHeader."Pre-Assigned No." := SessionHeader."No.";
         PostedHeader."User Id" := CopyStr(UserId(), 1, 50);
         PostedHeader.Insert(false);
     end;

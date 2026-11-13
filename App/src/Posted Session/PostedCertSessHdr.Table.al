@@ -123,6 +123,12 @@ table 50005 "MBS Posted Cert. Sess. Hdr."
             ValidateTableRelation = false;
             ToolTip = 'Specifies the user who posted.';
         }
+        field(210; "Pre-Assigned No."; Code[20])
+        {
+            Caption = 'Pre-Assigned No.';
+            Editable = false;
+            ToolTip = 'Specifies the original certification session document number.';
+        }
     }
 
     keys

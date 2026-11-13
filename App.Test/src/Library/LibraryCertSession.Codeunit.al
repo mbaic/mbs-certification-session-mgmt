@@ -183,8 +183,8 @@ codeunit 50100 "MBS Library - Cert. Session"
 
     procedure PostAndGetPostedSession(var SessionHeader: Record "MBS Cert. Session Header"; var PostedHeader: Record "MBS Posted Cert. Sess. Hdr.")
     begin
-        PostedHeader.SetRange("No.", SessionHeader."Posting No.");
         PostCertificationSession(SessionHeader);
+        PostedHeader.SetRange("Pre-Assigned No.", SessionHeader."No.");
         PostedHeader.FindFirst();
     end;
 

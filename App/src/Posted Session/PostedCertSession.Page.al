@@ -78,6 +78,11 @@ page 50008 "MBS Posted Cert. Session"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the user who posted.';
                 }
+                field("Pre-Assigned No."; Rec."Pre-Assigned No.")
+                {
+                    ApplicationArea = All;
+                    ToolTip = 'Specifies the original certification session document number.';
+                }
             }
         }
     }
